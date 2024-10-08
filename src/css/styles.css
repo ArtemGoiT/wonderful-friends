@@ -64,3 +64,36 @@
   src: url("../fonts/MontserratAlternates-Bold.woff2");
   font-weight: 700;
 }
+
+:root {
+	--whitetxt: #fff;
+	--bg: #fff;
+	--blacktxt: #000;
+	--button: #316f33;
+	--button1: #fcfbfb;
+	--bgburger: #b6c8b7;
+	--red: #9f0000;
+
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Bhavuka", sans-serif;
+  --font3: "Montserrat Alternates", sans-serif;
+}
+
+
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 1700px) {
+  .container {
+    max-width: 1700px;
+
+  }
+}
