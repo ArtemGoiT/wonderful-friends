@@ -1,0 +1,8 @@
+import "./js/about.js"
+import "./js/reviews.js"
+import "./js/hero.js"
+import "./js/header.js"
+import "./js/footer.js"
+import "./js/categories.js"
+import "./js/assortment.js"
+import "./js/account.js"
