@@ -1,18 +1,65 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
+@import 'normalize.css';
 @import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
-
-/* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./categories.css');
+@import url('./assortment.css');
+@import url('./reviews.css');
 @import url('./footer.css');
+
+
+@font-face {
+  font-family:"Bhavuka" ;
+  src: url("../fonts/Bhavuka-Regular.woff2");
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-Bold.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-LightItalic.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-Medium.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-Medium.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-Regular.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/Montserrat-SemiBold.woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../fonts/MontserratAlternates-Bold.woff2");
+  font-weight: 700;
+}
