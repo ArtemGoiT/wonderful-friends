@@ -1,6 +1,6 @@
 .categories {
   padding: 50px 0;
-  
+
 }
 
 .category-p {
@@ -62,7 +62,7 @@
   transform: scale(1.05);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1480px) {
   .category-item {
     width: 350px;
   }
