@@ -1,0 +1,13 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-burgerbutton" viewBox="0 0 448 32">
+<path stroke-width="16" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M16 16h416"></path>
+</symbol>
+<symbol id="icon-burgercenter" viewBox="0 0 448 32">
+<path stroke-width="16" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M16 16h416"></path>
+</symbol>
+<symbol id="icon-burgertop" viewBox="0 0 448 32">
+<path stroke-width="16" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M16 16h416"></path>
+</symbol>
+</defs>
+</svg>

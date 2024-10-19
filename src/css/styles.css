@@ -84,16 +84,17 @@
 
 .container {
   min-width: 320px;
-  max-width: 375px;
+
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1680px) {
   .container {
-    max-width: 1700px;
+    max-width: 1680px;
+    padding: 130px 120px 0 120px;
 
   }
 }
