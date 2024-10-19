@@ -1,0 +1,178 @@
+/* Стилі для мобільної версії */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* width: 1680px; */
+  align-items: center;
+
+  margin-top: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.40) 69.73%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+} 
+@media only screen and (min-width: 768px) {
+    .header{  
+         width: 768px;
+    }
+} 
+.logo-div {  
+    margin-right: 60px;
+}
+@media only screen and (min-width: 768px) {
+    .logo-div {  
+        margin-right: 327px;
+    }
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logo {
+  fill: #FFFFFF;
+  width: 26px;
+  height: 38px;
+
+} 
+@media only screen and (min-width: 768px) {
+    .logo {  
+        width: 34px;
+        height: 42px; 
+    }
+}
+.logo-text {
+  color: #FFF;
+  font-family: Bhavuka;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+    .logo-text {  
+        font-size: 36px; 
+    }
+}
+.navigation-wrapper {
+  display: none; 
+}
+@media only screen and (min-width: 1024px) {
+    .navigation-wrapper {
+        display: flex; 
+        margin-right: 299px;
+    } 
+    .nav-list{
+        display: flex; 
+        align-items: center;
+        color: #FFFFFF;
+      }
+      .nav-item {
+        margin-right: 31px; 
+        padding: 0px 10px;
+        
+      }
+      .nav-item:last-child {
+        margin-right: 0; 
+      }
+      .nav-link {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+}
+
+/*  */
+.social-wrapper { 
+  display: flex;
+  align-items: center;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  /* gap: 10px;  */
+}
+.social-item {
+  width: 48px;
+  height: 48px;
+  padding: 11px 14px 13px 10px;
+}
+.social-item:nth-child(3), .social-item:nth-child(4) {
+  display: none; 
+}
+.social-icon {
+  fill: #FFFFFF;
+}
+.burger-menu {
+  display: flex; 
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 28px;
+  border-radius: 77px;
+  background-color: #FFF;
+}
+.burger-line {
+  display: block;
+  width: 26px;
+  height: 1px; 
+  background-color: #000; 
+  border-radius: 2px; 
+  transition: all 0.3s ease; 
+}
+
+/* Стилі для десктопу (від 1680px) */
+
+/* @media (max-width: 1680px) {
+.header {
+    width: 1680px;
+  }  
+  .logo-div {  
+    margin-right: 327px;
+  }
+  .logo {
+    width: 34px;
+    height: 42px;
+  } 
+  .logo-text {
+    font-size: 36px;
+  }
+  .navigation-wrapper {
+    display: block; 
+    margin-right: 299px;
+  } 
+  .nav-list{
+    display: flex; 
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .nav-item {
+    margin-right: 31px; 
+    padding: 0px 10px;
+    
+  }
+  .nav-item:last-child {
+    margin-right: 0; 
+  }
+  .nav-link {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  } 
+  .social-wrapper {
+    display: flex;
+}
+  .social-list {
+    gap: 10px;  
+  }
+  .burger-menu {
+    display: none; 
+}
+  } */
