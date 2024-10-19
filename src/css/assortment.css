@@ -78,7 +78,7 @@
 
 .assortment-item img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -100,6 +100,7 @@
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
+  margin-top: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -135,10 +136,15 @@
   .assortment-list {
     flex-direction: column;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .assortment-item {
     width: 90%;
     max-width: 300px;
+  }
+  .scroll-left, .scroll-right {
+    display: none;
   }
 }
