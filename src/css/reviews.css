@@ -1,0 +1,18 @@
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 58px;
+  gap: 30px;
+  align-items: center;
+}
+
+.section-title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+
+  color: var(--blacktxt);
+}
