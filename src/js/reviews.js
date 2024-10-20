@@ -18,12 +18,12 @@ const swiper = new Swiper('.reviews-swiper', {
   breakpoints: {
     768: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 18,
       centeredSlides: false,
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 18,
       centeredSlides: false,
     },
   },
