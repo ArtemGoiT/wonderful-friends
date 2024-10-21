@@ -34,6 +34,7 @@
   position: relative;
   text-align: center;
   width: 300px;
+
 }
 
 .category-item picture,
@@ -42,6 +43,7 @@
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease;
+
 }
 
 .category-item h3 {
@@ -64,15 +66,17 @@
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .category-p {
     font-size: 16px;
     padding: 10px;
   }
 
   .category-list {
-
+    flex-wrap: wrap;
+flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   .category-item {
@@ -82,14 +86,7 @@
 
 
 
-@media (min-width: 1680px) {
-  .category-list{
-    display: flex;
-  justify-content: center;
-  gap: 21px;
-
-  }
-
+@media (min-width: 1480px) {
   .category-item{
     width: 404px;
     height: 225px;
