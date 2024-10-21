@@ -1,25 +1,27 @@
-/* Стилі для мобільної версії */
+
 
 .header {
+  min-width: 320px;
+
+  padding: 0 20px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  /* width: 1680px; */
   align-items: center;
-
-  margin-top: 40px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.40) 69.73%), url(<path-to-image>) lightgray 50% / cover no-repeat;
 } 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1680px) {
     .header{  
-         width: 768px;
+      max-width: 1680px;
+      padding: 0 120px;
     }
 } 
 .logo-div {  
-    margin-right: 60px;
+    margin-right: auto;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1680px) {
     .logo-div {  
-        margin-right: 327px;
+      margin-right: auto;
     }
 }
 .link {
@@ -33,10 +35,10 @@
   height: 38px;
 
 } 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1680px) {
     .logo {  
-        width: 34px;
-        height: 42px; 
+      width: 34px;
+      height: 42px; 
     }
 }
 .logo-text {
@@ -48,51 +50,58 @@
   line-height: normal;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1680px) {
     .logo-text {  
-        font-size: 36px; 
+      font-size: 36px; 
     }
 }
 .navigation-wrapper {
   display: none; 
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1680px) {
     .navigation-wrapper {
-        display: flex; 
-        margin-right: 299px;
+      display: flex; 
+      margin-right: auto;
     } 
     .nav-list{
-        display: flex; 
-        align-items: center;
-        color: #FFFFFF;
-      }
-      .nav-item {
-        margin-right: 31px; 
-        padding: 0px 10px;
-        
-      }
-      .nav-item:last-child {
-        margin-right: 0; 
-      }
-      .nav-link {
-        font-family: Montserrat;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-transform: uppercase;
-      }
+      display: flex; 
+      align-items: center;
+      color: #FFFFFF;
+    }
+    .nav-item {
+      white-space: nowrap;
+      margin-right: 31px; 
+      padding: 0px 10px;
+      
+    }
+    .nav-item:last-child {
+      margin-right: 0; 
+    }
+    .nav-link {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+    }
 }
 
-/*  */
 .social-wrapper { 
   display: flex;
   align-items: center;
 }
 .social-list {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  /* gap: 10px;  */
+  margin-right: 20px;
+}
+@media only screen and (min-width: 1680px) {
+  .social-list  { 
+    flex-direction: row;
+    margin-right: 0; 
+  }
 }
 .social-item {
   width: 48px;
@@ -101,6 +110,11 @@
 }
 .social-item:nth-child(3), .social-item:nth-child(4) {
   display: none; 
+}
+@media only screen and (min-width: 1680px) {
+  .social-item:nth-child(3), .social-item:nth-child(4) {
+    display: flex; 
+  }
 }
 .social-icon {
   fill: #FFFFFF;
@@ -116,63 +130,14 @@
   border-radius: 77px;
   background-color: #FFF;
 }
-.burger-line {
-  display: block;
+.burger-icon {
   width: 26px;
   height: 1px; 
   background-color: #000; 
   border-radius: 2px; 
-  transition: all 0.3s ease; 
 }
-
-/* Стилі для десктопу (від 1680px) */
-
-/* @media (max-width: 1680px) {
-.header {
-    width: 1680px;
-  }  
-  .logo-div {  
-    margin-right: 327px;
-  }
-  .logo {
-    width: 34px;
-    height: 42px;
+ @media (min-width: 1680px) {
+.burger-menu  {
+   display: none;
   } 
-  .logo-text {
-    font-size: 36px;
-  }
-  .navigation-wrapper {
-    display: block; 
-    margin-right: 299px;
-  } 
-  .nav-list{
-    display: flex; 
-    align-items: center;
-    color: #FFFFFF;
-  }
-  .nav-item {
-    margin-right: 31px; 
-    padding: 0px 10px;
-    
-  }
-  .nav-item:last-child {
-    margin-right: 0; 
-  }
-  .nav-link {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-  } 
-  .social-wrapper {
-    display: flex;
-}
-  .social-list {
-    gap: 10px;  
-  }
-  .burger-menu {
-    display: none; 
-}
-  } */
+ }
