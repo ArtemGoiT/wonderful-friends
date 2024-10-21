@@ -1,0 +1,24 @@
+.hero{
+  background: url("../img/hero/mobileback.jpg");
+
+
+
+  background-repeat: no-repeat;
+
+
+
+}
+
+.title{
+  padding-top: 100px;
+}
+
+
+.the_heading{
+  padding-top: 35px;
+}
+
+
+.buy_button{
+  padding: 100px 0 132px 0;
+}
