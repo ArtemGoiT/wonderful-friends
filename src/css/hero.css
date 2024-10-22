@@ -1,24 +1,54 @@
 .hero{
   background: url("../img/hero/mobileback.jpg");
-
-
-
   background-repeat: no-repeat;
-
-
-
+  background-size: cover;
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background: url("../img/hero/mobilback@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
 
 .title{
   padding-top: 100px;
+  font-family:  "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+color: #ecebeb;
 }
 
 
 .the_heading{
   padding-top: 35px;
+  font-family:"Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color:#fff;
+width: 308px;
+height: 69px;
 }
 
 
 .buy_button{
-  padding: 100px 0 132px 0;
+  padding: 10px 40px;
+  width: 272px;
+height: 40px;
+background: #fcfbfb;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+margin: 100px 28px 132px 28px
 }
