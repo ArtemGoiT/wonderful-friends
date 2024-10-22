@@ -12,7 +12,12 @@
   }
 }
 
-
+.structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .title{
   padding-top: 100px;

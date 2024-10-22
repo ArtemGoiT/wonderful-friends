@@ -9,70 +9,57 @@
 @import url('./footer.css');
 @import url('./account.css');
 
-
 @font-face {
-  font-family:"Bhavuka" ;
+  font-family: "Bhavuka";
   src: url("../fonts/Bhavuka-Regular.woff2");
   font-weight: 400;
 }
 
-
 @font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-Bold.woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-LightItalic.woff2");
   font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-  font-family:"Montserrat" ;
-  src: url("../fonts/Montserrat-Medium.woff2");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-Medium.woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-Regular.woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family:"Montserrat" ;
-  src: url("../fonts/Montserrat-Regular.woff2");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-SemiBold.woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family:"Montserrat" ;
+  font-family: "Montserrat Alternates";
   src: url("../fonts/MontserratAlternates-Bold.woff2");
   font-weight: 700;
 }
 
 :root {
-	--whitetxt: #fff;
-	--bg: #fff;
-	--blacktxt: #000;
-	--button: #316f33;
-	--button1: #fcfbfb;
-	--bgburger: #b6c8b7;
-	--red: #9f0000;
+  --whitetxt: #fff;
+  --bg: #fff;
+  --blacktxt: #000;
+  --button: #316f33;
+  --button1: #fcfbfb;
+  --bgburger: #b6c8b7;
+  --red: #9f0000;
 
   --font-family: "Montserrat", sans-serif;
   --second-family: "Inter", sans-serif;
@@ -80,11 +67,12 @@
   --font3: "Montserrat Alternates", sans-serif;
 }
 
-
+body {
+  font-family: var(--font-family);
+}
 
 .container {
   min-width: 320px;
-
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -95,6 +83,5 @@
   .container {
     max-width: 1680px;
     padding: 130px 120px 0 120px;
-
   }
 }
