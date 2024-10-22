@@ -1,6 +1,6 @@
 .assortment {
   padding: 40px;
-  background-color: #f9f9f9;
+
   text-align: center;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .assortment-item {
-  background-color: white;
+  background-color: #f2f2f2;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
