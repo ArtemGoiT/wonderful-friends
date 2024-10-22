@@ -57,3 +57,47 @@ text-align: center;
 color: #000;
 margin: 100px 28px 132px 28px
 }
+
+
+@media only screen and (min-width: 1680px) {
+  .hero {
+    background: url("../img/hero/Rectangle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  .structure {
+    width: 1920px;
+    height: 976px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+  .title {
+    font-family: var(--font3);
+font-weight: 700;
+font-size: 80px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #ecebeb;
+  }
+
+
+  .the_heading {
+width: 863px;
+height: 88px;
+font-size: 36px;
+
+
+  }
+  .buy_button{
+    padding: 22px 60px;
+width: 338px;
+height: 57px;
+
+
+
+  }
+}
