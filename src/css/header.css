@@ -15,6 +15,9 @@
   align-items: center;
 }
 
+.header.custom-header {
+  background: none; /* Теперь это более специфично */
+}
 @media only screen and (min-width: 1220px) {
     .header{
       min-width: 1220px;
@@ -113,7 +116,7 @@
       stroke-dashoffset: 340;
       transition: stroke-dashoffset 1s ease;
     }
-    
+
     .nav-link:hover rect {
       stroke-dashoffset: 0;
     }
