@@ -20,27 +20,31 @@
 }
 
 .title{
-  padding-top: 100px;
-  font-family:  "Montserrat Alternates", sans-serif;
+  padding-top: 178px;
+  font-family: var(--font3);
   font-weight: 700;
   font-size: 50px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align: center;
-color: #ecebeb;
+  color: var(--whitetxt);
+
+
+
 }
 
 
 .the_heading{
-  padding-top: 35px;
+
   font-family:"Montserrat", sans-serif;
 font-weight: 500;
 font-size: 16px;
 text-transform: uppercase;
 text-align: center;
 color:#fff;
-width: 308px;
-height: 69px;
+padding-top: 35px;
+
+
 }
 
 

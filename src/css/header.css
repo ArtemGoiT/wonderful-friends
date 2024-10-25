@@ -19,11 +19,24 @@
   background: none; /* Теперь это более специфично */
 }
 @media only screen and (min-width: 1220px) {
-    .header{
+    .header {
       min-width: 1220px;
       padding: 0 50px;
       top: 40px;
     }
+}
+@media only screen and (min-width: 1680px) {
+  .header {
+    width: 100%;
+    max-width: 1680px; /* Ограничение по максимальной ширине */
+    padding: 0 120px;
+    top: 40px;
+    margin: 0 auto;
+    width: 100%;
+
+    left: 0;
+    right: 0; /* Центрирует хедер */
+  }
 }
 
 .logo-div {

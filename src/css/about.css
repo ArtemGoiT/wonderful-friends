@@ -1,13 +1,74 @@
 .titl {
   padding-top: 60px;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--blacktxt);
+text-align: center;
+
 }
 .podtitl {
   padding-top: 30px;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: var(--blacktxt);
+
 }
 .poragraf {
   padding-top: 25px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--blacktxt);
+
 }
 .poragraf_p {
   padding-top: 15px;
   padding-bottom: 25px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--blacktxt);
+
+}
+@media only screen and (min-width: 1680px) {
+  .text-contr {
+
+  width: 605px;
+  height: 383px;
+
+  }
+  .about {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+  }
+  .titl {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 48px;
+color: var(--blacktxt);
+text-align: left;
+  }
+.podtitl {
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 32px;
+color: var(--blacktxt);
+text-align: left;
+
+}
+
+.poragraf.poragraf_p {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+color: var(--blacktxt);
+
+}
+
 }
