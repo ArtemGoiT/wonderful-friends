@@ -1,0 +1,86 @@
+.logo-div-footer {
+  padding-top: 65px;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.link {
+}
+.logo-footer {
+  width: 26px;
+  height: 38px;
+
+}
+.logo-text-footer {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: var(--blacktxt);
+
+}
+.social-wrapper-footer {
+  display: flex;
+  align-items: center;
+
+}
+.social-list-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link-footer {
+
+}
+.navigation-wrapper-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+
+}
+.nav-list-footer {
+  display: flex;
+flex-direction: column;
+gap: 20px;
+padding-bottom: 30px;
+}
+.nav-item-footer {
+
+
+}
+.nav-link-footer {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color: var(--blacktxt);
+
+}
+
+.border-svg-footer {
+}
+.nav-lin-footerk {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color: var(--button);
+
+}
+.footer-card {
+  display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.gap {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+color: var(--blacktxt);
+
+}
