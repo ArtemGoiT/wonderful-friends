@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
 
+
 }
 .link {
 }
@@ -59,7 +60,8 @@ color: var(--blacktxt);
 
 }
 
-.border-svg-footer {
+.social-icon-footer {
+
 }
 .nav-lin-footerk {
   font-family: var(--font-family);
@@ -74,6 +76,8 @@ color: var(--button);
   display: flex;
  flex-direction: column;
  gap: 20px;
+ text-align: center;
+ padding-bottom: 44px;
 }
 
 .gap {
@@ -83,4 +87,24 @@ font-size: 16px;
 text-transform: uppercase;
 color: var(--blacktxt);
 
+}
+
+.srutur {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--blacktxt);
+
+text-transform: capitalize;
+display: inline-block; /* Это необходимо для применения отступа к span */
+margin-top: 10px;
+}
+
+.emaill {
+  text-transform: lowercase;
+}
+
+.inline-phone {
+  display: inline; /* Оставляет ссылки в одной строке */
+  white-space: nowrap; /* Запрещает перенос текста */
 }
