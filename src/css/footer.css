@@ -61,6 +61,10 @@ color: var(--blacktxt);
 }
 
 .social-icon-footer {
+  stroke-width: 1.50px;
+stroke: var(--blacktxt);
+fill: none;
+
 
 }
 .nav-lin-footerk {
