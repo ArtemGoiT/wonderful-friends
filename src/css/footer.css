@@ -61,7 +61,7 @@ color: var(--blacktxt);
 }
 
 .social-icon-footer {
-  stroke-width: 1.50px;
+
 stroke: var(--blacktxt);
 fill: none;
 
@@ -111,4 +111,15 @@ margin-top: 10px;
 .inline-phone {
   display: inline; /* Оставляет ссылки в одной строке */
   white-space: nowrap; /* Запрещает перенос текста */
+}
+
+
+
+
+@media only screen and (min-width: 1680px) {
+
+
+
+
+
 }
