@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/wonderful-friends/teaa.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Чайна оаза</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
     <script type="module" crossorigin src="/wonderful-friends/index.js"></script>
     <link rel="modulepreload" crossorigin href="/wonderful-friends/assets/vendor-BiMJRTlQ.js">
     <link rel="stylesheet" crossorigin href="/wonderful-friends/assets/vendor-BZ_WhpHG.css">
@@ -166,7 +167,8 @@
 
 
     <main>
-      <section class="container hero">
+      <div data-aos="fade-up">
+        <section class="container hero">
  <div class="structure">
   <h1 class="title">ЧАЙНА  ОАЗА</h1>
   <h3 class="the_heading">Ласкаво просимо до Чайної Оази - вашого місця для відкриття світу справжнього чаю!</h3>
@@ -174,7 +176,9 @@
 </div>
 
 </section>
-      <section class="container" id="about-us">
+      </div>
+      <div data-aos="fade-up">
+        <section class="container" id="about-us">
  <div class=" about">
   <div class="text-contr">
   <h2 class="titl">ПРО  НАС</h2>
@@ -194,7 +198,9 @@
       </picture>
     </div>
     </section>
-      <section class="categories container" id="categories">
+      </div>
+      <div data-aos="fade-up">
+        <section class="categories container" id="categories">
   <h2>КАТЕГОРІЇ</h2>
   <p class="category-p">
     Нехай чашка нашого чаю стане вашим санктуарієм спокою у суматошному світі.
@@ -237,7 +243,9 @@
   </ul>
 </section>
 
-      <section class="assortment container" id="assortment">
+      </div>
+      <div data-aos="fade-up">
+        <section class="assortment container" id="assortment">
   <h2>АСОРТИМЕНТ</h2>
   <p class="assortment-p">Зробіть свій вибір з нашого асортименту та зробіть перший крок до нового рівня чайного задоволення. Замовляйте прямо зараз і отримайте можливість насолодитися справжньою якістю та смаком від Чайної Оази.</p>
 
@@ -307,7 +315,9 @@
   </div>
 </section>
 
-      <section class="reviews-section container" id="reviews">
+      </div>
+      <div data-aos="fade-up">
+        <section class="reviews-section container" id="reviews">
   <h2 class="section-title">ВІДГУКИ</h2>
   <div class="swiper reviews-swiper">
     <ul class="swiper-wrapper reviews-wrapper">
@@ -512,7 +522,9 @@
     <div class="swiper-scrollbar"></div>
   </div>
 </section>
+      </div>
     </main>
+
 
     <footer class="container" id="contacts">
   <div class="logo-div-footer">
@@ -575,5 +587,12 @@
 
     
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800, // продолжительность анимации
+        easing: 'ease-in-out', // тип анимации
+      });
+    </script>
   </body>
 </html>
