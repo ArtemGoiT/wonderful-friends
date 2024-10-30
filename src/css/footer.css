@@ -135,8 +135,10 @@ margin-top: 10px;
 }
 
 .logo-div-footer {
-
   align-items: baseline;
+
+  height: 182px;
+  padding: 0;
 }
 
 .footer-card {
@@ -155,11 +157,13 @@ margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: auto;
 }
 .position {
-  position: relative;
-  bottom: 376px;
-  left: 817px;
+  position: absolute;
+  top: 3498px;
+  left: 1018px;
+  padding: 0;
 }
 
 }
