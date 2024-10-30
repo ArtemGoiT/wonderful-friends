@@ -158,6 +158,14 @@ margin-top: 10px;
 .social-link-footer:hover {
   transform: scale(1.1); /* Увеличение иконки при наведении */
 }
+address {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--blacktxt);
+  text-transform: capitalize;
+  margin: 0; /* Убедитесь, что отступы не мешают */
+}
 
 
 
@@ -165,7 +173,7 @@ margin-top: 10px;
 
 .navigation-wrapper-footer {
   position: relative;
-  bottom: 169px;
+  bottom: 181px;
   padding: 0;
   right: 382px;
 }
@@ -206,7 +214,7 @@ margin-top: 10px;
 }
 .position {
   position: absolute;
-  top: 3498px;
+  top: 3477px;
   left: 1018px;
   padding: 0;
 }
