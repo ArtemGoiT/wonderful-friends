@@ -6,21 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Чайна оаза</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
   </head>
   <body>
     <load src="./partials/header.html"/>
 
     <main>
-      <load src="./partials/hero.html" />
-      <load src="./partials/about.html" />
-      <load src="./partials/categories.html" />
-      <load src="./partials/assortment.html" />
-      <load src="./partials/reviews.html" />
+      <div data-aos="fade-up">
+        <load src="./partials/hero.html" />
+      </div>
+      <div data-aos="fade-up">
+        <load src="./partials/about.html" />
+      </div>
+      <div data-aos="fade-up">
+        <load src="./partials/categories.html" />
+      </div>
+      <div data-aos="fade-up">
+        <load src="./partials/assortment.html" />
+      </div>
+      <div data-aos="fade-up">
+        <load src="./partials/reviews.html" />
+      </div>
     </main>
+
 
     <load src="./partials/footer.html" />
     <load src="./partials/account.html" />
 
     <script type="module" src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800, // продолжительность анимации
+        easing: 'ease-in-out', // тип анимации
+      });
+    </script>
   </body>
 </html>
