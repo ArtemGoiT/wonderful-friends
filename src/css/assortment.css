@@ -1,6 +1,6 @@
+/* Основные стили для секции */
 .assortment {
   padding: 40px;
-
   text-align: center;
 }
 
@@ -8,10 +8,9 @@
   font-size: 24px;
   margin-bottom: 20px;
   font-family: var(--font-family);
-font-weight: 500;
-text-transform: uppercase;
-color: var(--blacktxt);
-
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--blacktxt);
 }
 
 .assortment-p {
@@ -21,6 +20,7 @@ color: var(--blacktxt);
   margin: 0 auto 40px auto;
 }
 
+/* Стили для контейнеров прокрутки */
 .scroll-container {
   position: relative;
   display: flex;
@@ -30,14 +30,17 @@ color: var(--blacktxt);
 }
 
 .scroll-wrapper {
+  display: flex; /* Используем flexbox для размещения карточек */
   overflow-x: auto;
   white-space: nowrap;
   width: 80%;
   padding-bottom: 10px;
   scroll-behavior: smooth;
+  gap: 20px; /* Промежуток между карточками */
 }
 
-.scroll-left, .scroll-right {
+.scroll-left,
+.scroll-right {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -58,6 +61,7 @@ color: var(--blacktxt);
   right: 10px;
 }
 
+/* Стили для карточек */
 .assortment-list {
   display: flex;
   justify-content: flex-start;
@@ -72,11 +76,18 @@ color: var(--blacktxt);
   width: 300px;
   min-width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  position: relative; /* Для управления z-index */
 }
 
+/* Эффекты при наведении на карточки */
 .assortment-item:hover {
-  transform: translateY(-10px);
+  transform: scale(1.1); /* Увеличение карточки при наведении */
+  z-index: 1; /* Подъем карточки над другими */
+}
+
+.assortment-item.dimmed {
+  opacity: 0.1; /* Затемнение для других карточек */
 }
 
 .assortment-item img {
@@ -99,6 +110,7 @@ color: var(--blacktxt);
   margin-bottom: 15px;
 }
 
+/* Кнопка внутри карточки */
 .assortment-item .my-button {
   background-color: #4CAF50;
   color: white;
@@ -118,6 +130,7 @@ color: var(--blacktxt);
   outline: none;
 }
 
+/* Стили для прокрутки */
 .scroll-wrapper::-webkit-scrollbar {
   height: 8px;
 }
@@ -131,6 +144,7 @@ color: var(--blacktxt);
   background-color: #555;
 }
 
+/* Медиа-запросы для адаптивности */
 @media (max-width: 768px) {
   .scroll-wrapper {
     width: 100%;
@@ -147,7 +161,9 @@ color: var(--blacktxt);
     width: 90%;
     max-width: 300px;
   }
-  .scroll-left, .scroll-right {
+
+  .scroll-left,
+  .scroll-right {
     display: none;
   }
 }
