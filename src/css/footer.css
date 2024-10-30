@@ -118,8 +118,48 @@ margin-top: 10px;
 
 @media only screen and (min-width: 1680px) {
 
+.navigation-wrapper-footer {
+  position: relative;
+  bottom: 169px;
+  padding: 0;
+  right: 382px;
+}
 
 
 
+
+.social-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logo-div-footer {
+
+  align-items: baseline;
+}
+
+.footer-card {
+
+  gap: 10px;
+}
+
+.srutur {
+  position: relative;
+  left: 200px;
+  bottom: 19px;
+  margin: 0;
+
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.position {
+  position: relative;
+  bottom: 376px;
+  left: 817px;
+}
 
 }
