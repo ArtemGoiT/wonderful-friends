@@ -100,7 +100,7 @@ color: var(--blacktxt);
   color: var(--blacktxt);
 
 text-transform: capitalize;
-display: inline-block; /* Это необходимо для применения отступа к span */
+display: inline-block;
 margin-top: 10px;
 }
 
@@ -109,8 +109,8 @@ margin-top: 10px;
 }
 
 .inline-phone {
-  display: inline; /* Оставляет ссылки в одной строке */
-  white-space: nowrap; /* Запрещает перенос текста */
+  display: inline;
+  white-space: nowrap;
 }
 
 
@@ -165,5 +165,7 @@ margin-top: 10px;
   left: 1018px;
   padding: 0;
 }
-
+.nav-list-footer {
+  align-items: flex-start;
+}
 }
