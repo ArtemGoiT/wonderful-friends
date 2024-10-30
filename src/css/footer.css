@@ -6,13 +6,23 @@
 
 
 }
-.link {
-}
+
 .logo-footer {
   width: 26px;
   height: 38px;
-
+  transition: transform 0.3s ease, filter 0.3s ease; /* Плавный переход для трансформации и фильтра */
 }
+
+.link:hover {
+   color: #316F33;
+   transition: transform 0.3s ease, filter 0.3s ease;
+  transform: scale(1.1); /* Увеличиваем размер логотипа при наведении */
+  filter: brightness(1.2); /* Увеличиваем яркость логотипа */
+}
+
+
+
+
 .logo-text-footer {
   font-family: var(--third-family);
   font-weight: 400;
@@ -31,9 +41,7 @@
   gap: 20px;
 }
 
-.social-link-footer {
 
-}
 .navigation-wrapper-footer {
   display: flex;
   justify-content: center;
@@ -46,10 +54,7 @@ flex-direction: column;
 gap: 20px;
 padding-bottom: 30px;
 }
-.nav-item-footer {
 
-
-}
 .nav-link-footer {
   font-family: var(--font-family);
 font-weight: 500;
@@ -113,6 +118,46 @@ margin-top: 10px;
   white-space: nowrap;
 }
 
+
+.nav-lin-footerk,
+.nav-link-footer {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-lin-footerk:hover,
+.nav-link-footer:hover {
+  color: var(--button);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.phone-link,
+.email-link {
+  color: var(--blacktxt); /* Цвет по умолчанию */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Плавный переход */
+}
+
+.phone:hover
+ {
+  color: green; /* Цвет при наведении */
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Для социальных иконок */
+.social-item-footer:hover .social-icon-footer {
+  fill: green; /* Цвет иконок при наведении */
+  transition: fill 0.3s ease; /* Плавный переход цвета */
+}
+
+.social-link-footer {
+  transition: transform 0.3s ease; /* Плавный переход для увеличения */
+}
+
+.social-link-footer:hover {
+  transform: scale(1.1); /* Увеличение иконки при наведении */
+}
 
 
 

@@ -2,6 +2,21 @@
   padding: 50px 0;
 
 }
+.category-item {
+  position: relative; /* Устанавливаем относительное позиционирование для родителя */
+  cursor: pointer; /* Указываем, что элемент кликабельный */
+}
+
+.category-item:hover .category-title {
+  color: green; /* Цвет текста при наведении */
+  transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.category-item img {
+  display: block; /* Убираем пробелы под изображением */
+  width: 100%; /* Делаем изображение адаптивным */
+  height: auto; /* Сохраняем пропорции изображения */
+}
 
 .category-p {
   display: flex;
